@@ -1,0 +1,37 @@
+package org.aic.artworks.presentation.theme
+
+import androidx.compose.ui.graphics.Color
+
+// Светлая палитра (High Contrast & Clean Material 3)
+val md_theme_light_primary = Color(0xFF6B1D2F) // Благородный бордовый оттенок Института искусств
+val md_theme_light_onPrimary = Color(0xFFFFFFFF)
+val md_theme_light_primaryContainer = Color(0xFFFFD9DD)
+val md_theme_light_onPrimaryContainer = Color(0xFF3F0013)
+val md_theme_light_secondary = Color(0xFF5C5D72)
+val md_theme_light_onSecondary = Color(0xFFFFFFFF)
+val md_theme_light_secondaryContainer = Color(0xFFE1E0F9)
+val md_theme_light_onSecondaryContainer = Color(0xFF191A2C)
+val md_theme_light_background = Color(0xFFFCFDFD)
+val md_theme_light_onBackground = Color(0xFF1A1C1E)
+val md_theme_light_surface = Color(0xFFF7F9FA)
+val md_theme_light_onSurface = Color(0xFF191C1D)
+val md_theme_light_surfaceVariant = Color(0xFFE7E0E1)
+val md_theme_light_onSurfaceVariant = Color(0xFF494546)
+val md_theme_light_outline = Color(0xFF79747E)
+
+// Тёмная палитра (Все поверхности темнеют, текст контрастный)
+val md_theme_dark_primary = Color(0xFFFFB2BC)
+val md_theme_dark_onPrimary = Color(0xFF56001C)
+val md_theme_dark_primaryContainer = Color(0xFF7B2335)
+val md_theme_dark_onPrimaryContainer = Color(0xFFFFD9DD)
+val md_theme_dark_secondary = Color(0xFFC5C4DD)
+val md_theme_dark_onSecondary = Color(0xFF2E2F42)
+val md_theme_dark_secondaryContainer = Color(0xFF444559)
+val md_theme_dark_onSecondaryContainer = Color(0xFFE1E0F9)
+val md_theme_dark_background = Color(0xFF121314)
+val md_theme_dark_onBackground = Color(0xFFE1E2E4)
+val md_theme_dark_surface = Color(0xFF1B1C1E)
+val md_theme_dark_onSurface = Color(0xFFE1E2E4)
+val md_theme_dark_surfaceVariant = Color(0xFF494546)
+val md_theme_dark_onSurfaceVariant = Color(0xFFCAC4D0)
+val md_theme_dark_outline = Color(0xFF938F99)
