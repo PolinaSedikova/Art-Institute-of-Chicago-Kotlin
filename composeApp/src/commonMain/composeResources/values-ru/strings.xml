@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Институт искусств в Чикаго</string>
+    <string name="catalog_title">Институт искусств в Чикаго</string>
+    <string name="search_placeholder">Поиск по картинам или художникам...</string>
+    <string name="search_clear">Очистить поиск</string>
+    <string name="nothing_found">Ничего не найдено по запросу «%1$s»</string>
+    <string name="empty_catalog">Каталог пуст</string>
+    <string name="detail_title">Детали экспоната</string>
+    <string name="artist_label">Художник</string>
+    <string name="date_label">Период</string>
+    <string name="medium_label">Материал</string>
+    <string name="other_works_by_artist">Другие работы этого автора</string>
+    <string name="no_other_works">Других работ этого автора не найдено</string>
+    <string name="back">Назад</string>
+    <string name="theme_toggle">Сменить тему</string>
+    <string name="language_toggle">Сменить язык</string>
+    <string name="theme_dark">Тёмная тема</string>
+    <string name="theme_light">Светлая тема</string>
+</resources>
