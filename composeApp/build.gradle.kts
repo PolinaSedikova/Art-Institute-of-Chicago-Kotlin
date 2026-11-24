@@ -99,6 +99,10 @@ android {
     }
 }
 
+compose.resources {
+    packageOfResClass = "org.aic.artworks.generated.resources"
+}
+
 compose.desktop {
     application {
         mainClass = "org.aic.artworks.MainKt"

@@ -2,8 +2,7 @@ package org.aic.artworks.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
-// Светлая палитра (High Contrast & Clean Material 3)
-val md_theme_light_primary = Color(0xFF6B1D2F) // Благородный бордовый оттенок Института искусств
+val md_theme_light_primary = Color(0xFF6B1D2F)
 val md_theme_light_onPrimary = Color(0xFFFFFFFF)
 val md_theme_light_primaryContainer = Color(0xFFFFD9DD)
 val md_theme_light_onPrimaryContainer = Color(0xFF3F0013)
@@ -19,7 +18,6 @@ val md_theme_light_surfaceVariant = Color(0xFFE7E0E1)
 val md_theme_light_onSurfaceVariant = Color(0xFF494546)
 val md_theme_light_outline = Color(0xFF79747E)
 
-// Тёмная палитра (Все поверхности темнеют, текст контрастный)
 val md_theme_dark_primary = Color(0xFFFFB2BC)
 val md_theme_dark_onPrimary = Color(0xFF56001C)
 val md_theme_dark_primaryContainer = Color(0xFF7B2335)
