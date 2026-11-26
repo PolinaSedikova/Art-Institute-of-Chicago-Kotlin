@@ -2,6 +2,7 @@ package org.aic.artworks.presentation.detail
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -27,6 +28,7 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
@@ -43,6 +45,7 @@ import org.aic.artworks.generated.resources.language_toggle
 import org.aic.artworks.generated.resources.medium_label
 import org.aic.artworks.generated.resources.other_works_by_artist
 import org.aic.artworks.generated.resources.theme_toggle
+import org.aic.artworks.localization.LocalAppLanguage
 import org.aic.artworks.presentation.components.ArtworkCard
 import org.aic.artworks.presentation.components.ArtworkLetterPlaceholder
 import org.aic.artworks.presentation.theme.LocalThemeIsDark
@@ -81,11 +84,21 @@ fun ArtworkDetailScreen(
                     }
                 },
                 actions = {
-                    IconButton(onClick = onToggleLanguage) {
+                    TextButton(
+                        onClick = onToggleLanguage,
+                        contentPadding = PaddingValues(horizontal = 8.dp)
+                    ) {
                         Icon(
                             imageVector = Icons.Default.Language,
                             contentDescription = stringResource(Res.string.language_toggle),
                             tint = MaterialTheme.colorScheme.onSurface
+                        )
+                        Spacer(modifier = Modifier.width(4.dp))
+                        Text(
+                            text = LocalAppLanguage.current.title,
+                            style = MaterialTheme.typography.labelLarge,
+                            fontWeight = FontWeight.Bold,
+                            color = MaterialTheme.colorScheme.onSurface
                         )
                     }
                     IconButton(onClick = onToggleTheme) {
