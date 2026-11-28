@@ -44,3 +44,28 @@
 ```bash
 python tools/check-strings.py
 ```
+
+## Скриншоты
+
+### Android
+| Тёмная тема | Светлая тема | Поиск и фильтрация |
+|:---:|:---:|:---:|
+| <img src="docs/screenshots/android_list_dark.png" width="220" /> | <img src="docs/screenshots/android_list_light.png" width="220" /> | <img src="docs/screenshots/android_search_filter.png" width="220" /> |
+
+| Экран деталей | Связанные работы | Ничего не найдено |
+|:---:|:---:|:---:|
+| <img src="docs/screenshots/android_detail.png" width="220" /> | <img src="docs/screenshots/android_detail_related.png" width="220" /> | <img src="docs/screenshots/android_search_empty.png" width="220" /> |
+
+### Web (WebAssembly)
+| Каталог (RU, тёмная) | Каталог (EN, тёмная) | Каталог (EN, светлая) |
+|:---:|:---:|:---:|
+| <img src="docs/screenshots/web_dark_ru.png" width="280" /> | <img src="docs/screenshots/web_dark_en.png" width="280" /> | <img src="docs/screenshots/web_light_en.png" width="280" /> |
+
+| Поиск и фильтрация | Экран деталей | Ничего не найдено |
+|:---:|:---:|:---:|
+| <img src="docs/screenshots/web_search_filter.png" width="280" /> | <img src="docs/screenshots/web_detail_light_en.png" width="280" /> | <img src="docs/screenshots/web_search_empty.png" width="280" /> |
+
+### Desktop
+| Поиск и фильтрация | Ничего не найдено |
+|:---:|:---:|
+| <img src="docs/screenshots/desktop_search_filter.png" width="340" /> | <img src="docs/screenshots/desktop_search_empty.png" width="340" /> |
